@@ -1,0 +1,44 @@
+{
+  "app_id": "com.example.smartgpa",
+  "app_name": "SmartGPA",
+  "app_version": "1.0.0",
+  "icons": {
+      "iphone_2x": "Icons/ios/AppIcons/Icon-App-60x60@2x.png", 
+      "iphone_3x": "Icons/ios/AppIcons/Icon-App-60x60@3x.png",  
+      "ipad": "Icons/ios/AppIcons/Icon-App-76x76@1x.png",      
+      "ipad_retina": "Icons/ios/AppIcons/Icon-App-76x76@2x.png", 
+      "android_mdpi": "Icons/android/mipmap-mdpi/ic_launcher.png", 
+      "android_hdpi": "Icons/android/playstore-icon.png", 
+      "android_xhdpi": "Icons/android/mipmap-xhdpi/ic_launcher.png", 
+      "android_xxhdpi": "Icons/android/mipmap-xxhdpi/ic_launcher.png", 
+      "android_xxxhdpi": "Icons/android/mipmap-xxxhdpi/Iic_launcher.png", 
+      "windows": "Icons/ios/AppIcons/Icon-App-60x60@3x.png",   
+      "mac": "Icons/android/playstore-icon.png"          
+  },
+  "platforms": ["android", "ios", "windows", "mac"], 
+  "preferences": {
+      "android-minSdkVersion": "21",
+      "orientation": "portrait",
+      "fullscreen": true,
+      "statusbar": "lightcontent",
+      "auto-hide-splash-screen": false,
+      "windows-minVersion": "10.0",  
+      "mac-minVersion": "10.12"      
+  },
+  "content": {
+      "src": "index.html"
+  },
+  "access": {
+      "origin": "file://*"
+  },
+  "allow-navigation": [
+      "file://*/*",
+      "data://*"
+  ],
+  "background-color": "#ffffff",
+  "localstorage": true,
+  "cache": {
+      "enabled": true,
+      "mode": "local"
+  }
+}

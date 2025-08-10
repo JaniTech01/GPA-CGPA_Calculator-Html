@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMARTGPA - Splash Screen</title>
+    <link rel="icon" type="image/png" href="Icons/web/android-chrome-512x512.png">
+</head>
+<body>
+    <div class="splash-screen">
+        <div class="logo">
+            <img src="Icons/web/android-chrome-512x512.png" alt="SMARTGPA Logo">
+        </div>
+        <div class="loading-bar">
+            <div class="loading-progress"></div>
+        </div>
+        <p>Loading SMARTGPA...</p>
+    </div>
+</body>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.splash-screen {
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.loading-bar {
+    width: 200px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.loading-progress {
+    width: 0;
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    animation: load 3s forwards;
+}
+
+@keyframes load {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
+p {
+    color: #333;
+    font-size: 18px;
+}
+</style>
+<script>
+  // Simulate a loading process and redirect to the main application
+setTimeout(function() {
+    window.location.href = "home.html"; // Redirect to the main application page
+}, 3000); // 3000 milliseconds = 3 seconds
+</script>
+</html>

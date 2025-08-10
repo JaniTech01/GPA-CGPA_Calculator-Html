@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget id="com.example.smartgpa" version="1.0.0" xmlns="http://www.w3.org/ns/widgets">
+    <name>SmartGPA</name>
+    <description>A smart GPA calculator app for students</description>
+    <author email="extrakashi@gmail.com">Example Inc.</author>
+    
+    <!-- Entry point of the application -->
+    <content src="index.html" />
+
+    <!-- App Icons -->
+    <icon src="Icons/ios/AppIcons/Icon-App-60x60@3x.png" width="60" height="60" /> <!-- iPhone 3x -->
+    <icon src="Icons/ios/AppIcons/Icon-App-60x60@2x.png" width="60" height="60" /> <!-- iPhone 2x -->
+    <icon src="Icons/ios/AppIcons/Icon-App-76x76@1x.png" width="76" height="76" /> <!-- iPad -->
+    <icon src="Icons/ios/AppIcons/Icon-App-76x76@2x.png" width="76" height="76" /> <!-- iPad Retina -->
+    <icon src="Icons/android/mipmap-mdpi/ic_launcher.png" width="48" height="48" /> <!-- Android mdpi -->
+    <icon src="Icons/android/playstore-icon.png" width="72" height="72" /> <!-- Android hdpi -->
+    <icon src="Icons/android/mipmap-xhdpi/ic_launcher.png" width="96" height="96" /> <!-- Android xhdpi -->
+    <icon src="Icons/android/mipmap-xxhdpi/ic_launcher.png" width="144" height="144" /> <!-- Android xxhdpi -->
+    <icon src="Icons/android/mipmap-xxxhdpi/Iic_launcher.png" width="192" height="192" /> <!-- Android xxxhdpi -->
+    <icon src="Icons/ios/AppIcons/Icon-App-60x60@3x.png" width="60" height="60" /> <!-- Windows -->
+    <icon src="Icons/android/playstore-icon.png" width="512" height="512" /> <!-- macOS -->
+
+    <!-- Preferences -->
+    <preference name="android-minSdkVersion" value="21" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    <preference name="statusbar" value="lightcontent" />
+    <preference name="auto-hide-splash-screen" value="false" />
+    <preference name="windows-minVersion" value="10.0" />
+    <preference name="mac-minVersion" value="10.12" />
+
+    <!-- Access and Navigation -->
+    <access origin="file://*" />
+    <allow-navigation href="file://*" />
+    <allow-navigation href="data://*" />
+
+    <!-- Background Color -->
+    <preference name="background-color" value="#ffffff" />
+
+    <!-- Local Storage and Cache -->
+    <preference name="localstorage" value="true" />
+    <preference name="cache-mode" value="local" />
+    <preference name="background-cache" value="true" />
+</widget>
